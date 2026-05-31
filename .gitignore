@@ -1,0 +1,7 @@
+build/
+dist/
+*.db
+*.gob
+*.pid
+*.log
+.DS_Store

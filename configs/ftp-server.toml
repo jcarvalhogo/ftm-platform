@@ -1,0 +1,14 @@
+[server]
+bind_address = "0.0.0.0"
+port = 2121
+root_dir = "./data/ftp-root"
+status_file = "./data/runtime/ftp-status.json"
+pid_file = "./data/runtime/ftp-server.pid"
+passive_port_min = 40000
+passive_port_max = 40100
+
+[users.admin]
+password = "admin123"
+root_dir = "./data/ftp-root"
+read = true
+write = true

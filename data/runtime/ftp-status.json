@@ -1,0 +1,8 @@
+{
+  "state": "running",
+  "bind_address": "0.0.0.0",
+  "port": 2121,
+  "active_connections": 0,
+  "started_at": "2026-05-31T13:21:53-03:00",
+  "updated_at": "2026-05-31T13:23:23-03:00"
+}

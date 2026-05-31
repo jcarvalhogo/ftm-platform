@@ -1,0 +1,13 @@
+[server]
+bind_address = "127.0.0.1"
+port = 8080
+jwt_secret = "change-this-secret"
+data_file = "./data/backend/ftm-backend.gob"
+ftp_binary = "./build/ftm-ftp-server"
+ftp_config_file = "./configs/ftp-server.toml"
+ftp_status_file = "./data/runtime/ftp-status.json"
+ftp_pid_file = "./data/runtime/ftp-server.pid"
+
+[default_admin]
+username = "admin"
+password = "admin123"
